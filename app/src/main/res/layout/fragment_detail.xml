@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textviewtennhanvien"
+        android:layout_margin="10dp"
+        android:textColor="#f20"
+        android:textSize="22sp"
+        android:text="Ten nhan vien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/textviewtennhanvien"
+        android:id="@+id/textviewdiachi"
+        android:layout_margin="10dp"
+        android:textColor="#2a43b6"
+        android:textSize="22sp"
+        android:text="Dia chi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:layout_below="@id/textviewdiachi"
+        android:id="@+id/textviewnamsinh"
+        android:layout_margin="10dp"
+        android:textColor="#7d7e6e"
+        android:textSize="22sp"
+        android:text="Nam sinh"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
