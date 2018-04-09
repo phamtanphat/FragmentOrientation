@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:src="@mipmap/ic_launcher"
+        android:layout_margin="5dp"
+        android:id="@+id/imageviewlist"
+        android:scaleType="fitXY"
+        android:layout_width="60dp"
+        android:layout_height="60dp" />
+    <TextView
+        android:id="@+id/textviewten"
+        android:textColor="#f20"
+        android:layout_centerInParent="true"
+        android:textSize="22sp"
+        android:layout_toRightOf="@id/imageviewlist"
+        android:text="Ten nhan vien"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
