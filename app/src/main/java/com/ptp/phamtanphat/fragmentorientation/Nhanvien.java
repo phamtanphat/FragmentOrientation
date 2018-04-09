@@ -1,10 +1,12 @@
 package com.ptp.phamtanphat.fragmentorientation;
 
+import java.io.Serializable;
+
 /**
  * Created by KhoaPhamPC on 9/4/2018.
  */
 
-public class Nhanvien {
+public class Nhanvien implements Serializable{
     private String Ten;
     private String Diachi;
     private String Namsinh;
